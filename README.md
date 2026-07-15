@@ -1,6 +1,6 @@
 # Toronto 311 Service Analytics
 
-Exploratory analysis of Toronto's 311 Service Request data, examining request volume, timing patterns, and category/ward-level trends — with an interactive Power BI dashboard built on top of the cleaned data.
+Exploratory analysis of Toronto's 311 Service Request data, examining request volume, timing patterns, and category/ward-level trends with an interactive Power BI dashboard built on top of the cleaned data.
 
 ## Dashboard
 
