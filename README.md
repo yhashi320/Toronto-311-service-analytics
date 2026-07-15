@@ -10,16 +10,16 @@ Exploratory analysis of Toronto's 311 Service Request data, examining request vo
 
 ![Timing Patterns](images/timing.png)
 
-*Request volume by day of week, season, and hour of day — showing a clear peak in mid-morning to early afternoon on weekdays.*
+*Request volume by day of week, season, and hour of day showing a clear peak in mid-morning to early afternoon on weekdays.*
 
 ![Geography & Divisions](images/geography.png)
 
 *Top reporting wards, division workload, and the 10 most common service issues.*
 
-The full `.pbix` file is available in [`powerbi/`](powerbi/) — open it in Power BI Desktop to explore the data interactively (filter by category, ward, or status using the slicer).
+The full `.pbix` file is available in [`powerbi/`](powerbi/)  open it in Power BI Desktop to explore the data interactively (filter by category, ward, or status using the slicer).
 
 ## Data Source
-Toronto 311 Service Requests dataset (`sr2025.csv`) — City of Toronto Open Data.
+Toronto 311 Service Requests dataset (`sr2025.csv`) City of Toronto Open Data.
 
 ## Scripts
 1. `scripts/01_load_inspect.py` — loads the raw CSV, parses creation dates, and inspects data quality.
@@ -30,7 +30,7 @@ Toronto 311 Service Requests dataset (`sr2025.csv`) — City of Toronto Open Dat
 - **Waste Management** and **Transportation** are the two largest service categories, together accounting for the majority of all requests.
 - About **81% of requests are marked Completed**, with Cancelled requests making up roughly 10%.
 - Request volume peaks on **weekday mornings**, climbing sharply after 6 AM and staying elevated from roughly 9 AM to 5 PM before tapering off overnight.
-- **Summer and Fall** see the highest request volumes, with Winter the lowest — consistent with more outdoor/property-related issues being reported in warmer months.
+- **Summer and Fall** see the highest request volumes, with Winter the lowest — consistent with more outdoor/property related issues being reported in warmer months.
 - A small number of wards account for a disproportionate share of requests, suggesting geographic hotspots worth further investigation.
 
 ## Requirements
