@@ -5,12 +5,15 @@ Exploratory analysis of Toronto's 311 Service Request data, examining request vo
 ## Dashboard
 
 ![Overview](images/overview.png)
+
 *Total requests, breakdown by service category, and status distribution.*
 
 ![Timing Patterns](images/timing.png)
+
 *Request volume by day of week, season, and hour of day — showing a clear peak in mid-morning to early afternoon on weekdays.*
 
 ![Geography & Divisions](images/geography.png)
+
 *Top reporting wards, division workload, and the 10 most common service issues.*
 
 The full `.pbix` file is available in [`powerbi/`](powerbi/) — open it in Power BI Desktop to explore the data interactively (filter by category, ward, or status using the slicer).
